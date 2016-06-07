@@ -1,0 +1,141 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.clearfix:after{
+    clear:both;
+    content:' ';
+    display:block;
+    height:0;
+    visibility: hidden;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.header{
+    width:100%;
+    background-color:#333;
+    overflow:hidden;
+    height:60px;
+
+}
+.header .logo{
+    margin-left:20px;
+    margin-top:5px;
+}
+.nav li{
+    display:inline-block;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Microsoft YaHei","微软雅黑";
+    margin-top:12px;
+    margin-right:20px;
+}
+.comWidth{
+    background-color:#ccc;
+    padding:20px;
+}
+
+.leftArea{
+    width:70%;
+}
+
+.con-top,.con-middle,.con-bottom,.con-img{
+    margin-bottom:20px;
+    border:#1c1c1c solid 1px;
+    background-color:#fff;
+
+}
+.con-img li{
+    display:inline-block;
+    border:#000 solid 1px;
+    padding:5px;
+    width:22%;
+}
+.con-img li img{
+    display:block;
+}
+.con-bottom table{
+    height:100px;
+    width:80%;
+    text-align:center;
+}
+.con-bottom th{
+    background-color:black;
+    color:white;
+}
+.tr1{
+    background-color:grey;
+}
+.rightArea{
+    background-color:#fff;
+    width:28%;
+    border:#1c1c1c solid 1px;
+    border-shadow:2px grey ;
+
+}
+.frame{
+    height:30px;
+    border-left:4px solid grey;
+    text-indent:1em;
+    font-weight:400;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.item{
+    margin-top:20px;
+    font-size:14px;
+}
+.item label{
+    display:block;
+    width:120px;
+    text-align:right;
+    float:left;
+    font-size:14px;
+    padding-right:30px;
+}
+.item .tip{
+    display:block;
+}
+
+.notice{
+    text-align:right;
+    padding-right:54px;
+    color:#6a6a6a;
+    font-size:12px;
+    margin-top:8px;
+    font-family:"Microsoft YaHei"
+}
+.item textarea{
+    text-align:left;
+    text-indent:1em;
+    color:#999999;
+}
+.btn{
+    width:70%;
+    margin: 15px auto;
+}
+.btn input[type="submit"]
+{
+    width:100%;
+    background: #3355D0;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    font-weight: bold;
+}
+.footer{
+    background-color:#000;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+}
