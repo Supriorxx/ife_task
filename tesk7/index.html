@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task7实现常见的技术产品官网的页面架构及样式布局</title>
+    <link type="text/css" href="main.css" rel="stylesheet"/>
+</head>
+<body>
+ <div id="wrapper">
+   <div class="header clearfix">
+     <div class="logo fl">
+         <img src="images/header-logo.jpg" alt="logo"/>
+         <span><b>新世界</b></span>
+     </div>
+     <div class="login fr">
+           <a href="3">登陆</a>
+     </div>
+     <div class="nav fr">
+         <ul>
+             <li><a href="#">首页</a></li>
+             <li><a href="#">项目介绍</a></li>
+             <li><a href="#">最新活动</a></li>
+             <li><a href="#">爱心社区</a></li>
+             <li class="active"><a href="#">关于我们</a></li>
+         </ul>
+     </div>
+
+   </div>
+   <div class="banner">
+       <div class="banner-text">
+           <span>Time of new life</span>
+           <h2>新时代，年轻的人们让我们一起</h2>
+           <h2>体验新生活，享受新生活</h2>
+           <button class="interBtn"><a href="#">开始体验</a></button>
+       </div>
+   </div>
+   <div class="container">
+       <ul>
+           <li>
+               <img src="images/icon1.jpg"/>
+               <span>打造全新世界观，让你更爱你的生活</span>
+           </li>
+           <li>
+               <img src="images/icon2.jpg"/>
+               <span>丰富多彩的公益活动，发挥新世界的主人公意识</span>
+           </li>
+           <li>
+               <img src="images/icon3.jpg"/>
+               <span>时尚的新理念，超前体验未知的生活</span>
+           </li>
+           <li>
+               <img src="images/icon4.jpg"/>
+               <span class="lastest">打造全新世界观，让你更爱你的生活</span>
+           </li>
+       </ul>
+   </div>
+   <div class="new-world">
+       <img src="images/newworld.jpg" />
+       <p>关于新世界，你不知道的还有什么？</p>
+   </div>
+   <div class="search-bar">
+       <div class="search-fliter"></div>
+       <div class="search-title">
+          <p>查找新世界城市活动信息</p>
+          <div class="line"></div>
+          <span>每个城市的有不同的活动信息，请自主查询您所需要了解的城市</span>
+        </div>
+       <form>
+           <div class="select">
+               <select name="country">
+                   <option value="" selected="selected">国家</option>
+                   <option value="china">中国</option>
+               </select>
+           </div>
+           <div class="select">
+               <select name="province">
+                   <option value="" selected="selected">省份</option>
+                   <option value="beijing">北京市</option>
+                   <option value="tianjing">天津市</option>
+                   <option value="hebei">河北省</option>
+                   <option value="shanxi_1">陕西省</option>
+                   <option value="neimeng">内蒙古自治区</option>
+                   <option value="liaoning">辽宁省</option>
+               </select>
+           </div>
+           <div class="select">
+               <select name="city">
+                   <option value="" selected="selected">城市</option>
+               </select>
+           </div>
+           <button class="search-btn">搜索</button>
+       </form>
+ </div>
+   <div class="show-activity clearfix" >
+     <ul class="clearfix">
+         <li>
+             <div class="img-list">
+                <img src="images/shanghai-banner.jpg"/>
+             </div>
+             <p>北京活动</p>
+             <span>新社区大联盟</span>
+         </li>
+         <li>
+             <p>北京活动</p>
+             <span>新社区大联盟</span>
+             <div class="img-list">
+                 <img src="images/shanghai-banner2.jpg"/>
+             </div>
+         </li>
+         <li>
+             <div class="img-list">
+                 <img src="images/shanghai-banner3.jpg"/>
+             </div>
+             <p>北京活动</p>
+             <span>新社区大联盟</span>
+         </li>
+         <li>
+             <p>北京活动</p>
+             <span>新社区大联盟</span>
+             <div class="img-list">
+                 <img src="images/shanghai-banner.jpg"/>
+             </div>
+         </li>
+     </ul>
+   </div>
+   <div class="new-world-show clearfix">
+       <div class="new_imgShow">
+           <div class="new-world-text">
+               <p class="top-info">新世界</p>
+               <p class="center-info">TIME</p>
+               <p class="bottom-info">@新世界-北京</p>
+               <p class="bottom-info">2016.04.01</p>
+           </div>
+           <div class="arrows"></div>
+       </div>
+       <div class="new-world_info fr">
+           <h3>新世界/<span>01</span></h3>
+           <p>新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新
+             新世界新世界新世界新世界新世界</p>
+           <a class="more-btn">更多详情</a>
+           <ul class="change-icon">
+               <li></li>
+               <li></li>
+               <li></li>
+           </ul>
+       </div>
+   </div>
+   <div class="contact">
+       <h3>联系我们</h3>
+       <p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯</p>
+       <p>也可以通过以下任何方式关注我们动态</p>
+       <div class="contact-bar">
+       <input type="text" name="email" value="someone@email.com"/>
+       <input type="submit" value="提交"/>
+       </div>
+       <ul class="clearfix">
+           <li><a href=""><img src="images/contact1.jpg" alt=""></a></li>
+           <li><a href=""><img src="images/contact2.jpg" alt=""></a></li>
+           <li><a href=""><img src="images/contact3.jpg" alt=""></a></li>
+           <li><a href=""><img src="images/contact4.jpg" alt=""></a></li>
+       </ul>
+   </div>   
+ </div>
+</body>
+</html>
